@@ -2,17 +2,17 @@
 # Задержка (в секундах), после которой человека телепортирует.
 warp-delay: 10
 
-# If set to true, a person needs permissions for 'easywarp.warp.<warpname>' to use a warp or 'easywarp.warp.*' to use all warps.
+# If set to true, a person needs permissions for 'imsrwarp.warp.<warpname>' to use a warp or 'imsrwarp.warp.*' to use all warps.
 per-warp-permissions: false
 
-# If set to true, a person needs permissions for 'easywarp.sign.use' to use warp signs
+# If set to true, a person needs permissions for 'imsrwarp.sign.use' to use warp signs
 signs-require-permissions: false
 
 # If set to true, a person needs per-warp permissions to use warp signs, even if per-warp-permissions is set to false above.
 # It is recommended you leave this 'false'
 signs-per-warp-permissions: false
 
-# If set to true, a person bypasses any warp delay if the have permissions for 'easywarp.delay.bypass'
+# If set to true, a person bypasses any warp delay if the have permissions for 'imsrwarp.delay.bypass'
 permissions-bypass-delay: false
 
 # If set to true, a person bypasses any warp delay if they are ops.
