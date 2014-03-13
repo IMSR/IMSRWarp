@@ -15,7 +15,7 @@ public class IMSRWarp extends JavaPlugin {
 		FileManager.loadWarps();
 
 		getCommand("delwarp").setExecutor(new DelWarpCommand());
-		getCommand("imsrwarp").setExecutor(new EasyWarpCommand());
+		getCommand("imsrwarp").setExecutor(new IMSRWarpCommand());
 		getCommand("listwarp").setExecutor(new ListWarpCommand());
 		getCommand("setwarp").setExecutor(new SetWarpCommand());
 		getCommand("warp").setExecutor(new WarpCommand());
