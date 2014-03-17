@@ -5,9 +5,10 @@ import java.io.*;
 import java.util.ArrayList;
 
 public class FileManager {
+	
+	private static String fName = "DBWarps.data";
+	
 	public static void loadWarps() {
-		
-		String fName = "DBWarps.data";
 
 		File file = new File("plugins/IMSRWarp/" + fName);
 
@@ -39,7 +40,6 @@ public class FileManager {
 	}
 
 	public static void saveWarps() {
-		String fName = "DBWarps.data";
 
 		ArrayList<String> format = new ArrayList<String>();
 

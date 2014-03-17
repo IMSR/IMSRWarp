@@ -15,17 +15,17 @@ public class SetWarpCommand implements CommandExecutor {
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
 		if (cmd.getName().equalsIgnoreCase("setwarp")) {
 			if (!(sender instanceof Player)) {
-				sender.sendMessage(ChatColor.RED + "Error: You must be a player to do this.");
+				sender.sendMessage(ChatColor.RED + "Ошибка: Вы должны делать это в игре.");
 				return true;
 			}
 
 			if (WarpManager.isWarp(args[0])) {
-				sender.sendMessage(ChatColor.RED + "Error: This warp already exists. /delwarp");
+				sender.sendMessage(ChatColor.RED + "Ошибка: Это название уже занято. /delwarp");
 				return true;
 			}
 
-			if (!sender.hasPermission("easywarp.command.setwarp")) {
-				sender.sendMessage(ChatColor.RED + "Error: You need the 'easywarp.command.setwarp' permission node to do this.");
+			if (!sender.hasPermission("imsrwarp.command.setwarp")) {
+				sender.sendMessage(ChatColor.RED + "Error: You need the 'imsrwarp.command.setwarp' permission node to do this.");
 				return true;
 			}
 

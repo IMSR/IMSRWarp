@@ -27,8 +27,8 @@ public class WarpCommand implements CommandExecutor {
 				String warpName = args[0];
 
 				if (args.length > 1) {
-					if (!sender.hasPermission("easywarp.command.warpother")) {
-						sender.sendMessage(ChatColor.RED + "Error: You need the 'easywarp.command.warpother' permission node to do this.");
+					if (!sender.hasPermission("imsrwarp.command.warpother")) {
+						sender.sendMessage(ChatColor.RED + "Error: You need the 'imsrwarp.command.warpother' permission node to do this.");
 						return true;
 					}
 
@@ -45,8 +45,8 @@ public class WarpCommand implements CommandExecutor {
 						return true;
 					}
 
-					if (!sender.hasPermission("easywarp.command.warp")) {
-						sender.sendMessage(ChatColor.RED + "Error: You need the 'easywarp.command.warp' permission node to do this.");
+					if (!sender.hasPermission("imsrwarp.command.warp")) {
+						sender.sendMessage(ChatColor.RED + "Error: You need the 'imsrwarp.command.warp' permission node to do this.");
 						return true;
 					}
 

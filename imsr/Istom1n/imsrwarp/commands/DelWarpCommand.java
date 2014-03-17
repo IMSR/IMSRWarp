@@ -19,8 +19,8 @@ public class DelWarpCommand implements CommandExecutor {
 				return true;
 			}
 
-			if (!sender.hasPermission("easywarp.command.delwarp")) {
-				sender.sendMessage(ChatColor.RED + "Error: You need the 'easywarp.command.delwarp' permission node to do this.");
+			if (!sender.hasPermission("imsrwarp.command.delwarp")) {
+				sender.sendMessage(ChatColor.RED + "Error: You need the 'imsrwarp.command.delwarp' permission node to do this.");
 				return true;
 			}
 

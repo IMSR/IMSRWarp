@@ -12,8 +12,8 @@ public class ListWarpCommand implements CommandExecutor {
 
 	public boolean onCommand(CommandSender sender, Command cmd, String label, String args[]) {
 		if (cmd.getName().equalsIgnoreCase("listwarps")) {
-			if (!sender.hasPermission("easywarp.command.listwarps")) {
-				sender.sendMessage(ChatColor.RED + "Error: You need the 'easywarp.command.listwarps' permission node to do this.");
+			if (!sender.hasPermission("imsrwarp.command.listwarps")) {
+				sender.sendMessage(ChatColor.RED + "Error: You need the 'imsrwarp.command.listwarps' permission node to do this.");
 				return true;
 			}
 
